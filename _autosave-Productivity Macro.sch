@@ -750,16 +750,16 @@ F 3 "" H 5750 1750 60  0001 C CNN
 	1    5750 1750
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4900 3000 2    50   Input ~ 0
+Text GLabel 4900 4000 2    50   Input ~ 0
 COL0
-Text GLabel 4900 2300 2    50   Input ~ 0
+Text GLabel 4900 3100 2    50   Input ~ 0
 ROW0
 Text GLabel 4900 1900 2    50   Input ~ 0
 ROW1
-Text GLabel 4900 3200 2    50   Input ~ 0
+Text GLabel 4900 4100 2    50   Input ~ 0
 COL1
-Text GLabel 4900 3300 2    50   Input ~ 0
+Text GLabel 4900 4200 2    50   Input ~ 0
 COL2
-Text GLabel 4900 2000 2    50   Input ~ 0
+Text GLabel 4900 3200 2    50   Input ~ 0
 ROW2
 $EndSCHEMATC
