@@ -255,7 +255,7 @@ L Device:R_Small R1
 U 1 1 6088CB38
 P 3700 1100
 F 0 "R1" H 3759 1146 50  0000 L CNN
-F 1 "R_Small" H 3759 1055 50  0000 L CNN
+F 1 "10k" H 3759 1055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3700 1100 50  0001 C CNN
 F 3 "~" H 3700 1100 50  0001 C CNN
 	1    3700 1100
@@ -750,4 +750,16 @@ F 3 "" H 5750 1750 60  0001 C CNN
 	1    5750 1750
 	0    -1   -1   0   
 $EndComp
+Text GLabel 4900 3000 2    50   Input ~ 0
+COL0
+Text GLabel 4900 2300 2    50   Input ~ 0
+ROW0
+Text GLabel 4900 1900 2    50   Input ~ 0
+ROW1
+Text GLabel 4900 3200 2    50   Input ~ 0
+COL1
+Text GLabel 4900 3300 2    50   Input ~ 0
+COL2
+Text GLabel 4900 2000 2    50   Input ~ 0
+ROW2
 $EndSCHEMATC
