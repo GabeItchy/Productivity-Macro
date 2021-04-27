@@ -255,7 +255,7 @@ L Device:R_Small R1
 U 1 1 6088CB38
 P 3700 1100
 F 0 "R1" H 3759 1146 50  0000 L CNN
-F 1 "R_Small" H 3759 1055 50  0000 L CNN
+F 1 "10k" H 3759 1055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3700 1100 50  0001 C CNN
 F 3 "~" H 3700 1100 50  0001 C CNN
 	1    3700 1100
@@ -749,5 +749,44 @@ F 2 "random-keyboard-parts:Molex-0548190589" H 5750 1750 60  0001 C CNN
 F 3 "" H 5750 1750 60  0001 C CNN
 	1    5750 1750
 	0    -1   -1   0   
+$EndComp
+Text GLabel 4900 4000 2    50   Input ~ 0
+COL0
+Text GLabel 4900 3100 2    50   Input ~ 0
+ROW0
+Text GLabel 4900 1900 2    50   Input ~ 0
+ROW1
+Text GLabel 4900 4100 2    50   Input ~ 0
+COL1
+Text GLabel 4900 4200 2    50   Input ~ 0
+COL2
+Text GLabel 4900 3200 2    50   Input ~ 0
+ROW2
+Text GLabel 4900 1700 2    50   Input ~ 0
+PINA
+Text GLabel 4900 1600 2    50   Input ~ 0
+PINB
+Text GLabel 7600 1450 1    50   Input ~ 0
+PINA
+Text GLabel 7400 1450 1    50   Input ~ 0
+PINB
+Text GLabel 4900 4300 2    50   Input ~ 0
+PINA1
+Text GLabel 4900 3900 2    50   Input ~ 0
+PINB1
+Text GLabel 8900 1450 1    50   Input ~ 0
+PINB1
+Text GLabel 9100 1450 1    50   Input ~ 0
+PINA1
+$Comp
+L power:GND #PWR0116
+U 1 1 6088BDB9
+P 6050 1450
+F 0 "#PWR0116" H 6050 1200 50  0001 C CNN
+F 1 "GND" H 6055 1277 50  0000 C CNN
+F 2 "" H 6050 1450 50  0001 C CNN
+F 3 "" H 6050 1450 50  0001 C CNN
+	1    6050 1450
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

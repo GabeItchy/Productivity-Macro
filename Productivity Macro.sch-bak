@@ -255,7 +255,7 @@ L Device:R_Small R1
 U 1 1 6088CB38
 P 3700 1100
 F 0 "R1" H 3759 1146 50  0000 L CNN
-F 1 "R_Small" H 3759 1055 50  0000 L CNN
+F 1 "10k" H 3759 1055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3700 1100 50  0001 C CNN
 F 3 "~" H 3700 1100 50  0001 C CNN
 	1    3700 1100
@@ -325,7 +325,7 @@ L Device:C_Small C1
 U 1 1 608943F9
 P 2700 1600
 F 0 "C1" V 2471 1600 50  0000 C CNN
-F 1 "C_Small" V 2562 1600 50  0000 C CNN
+F 1 "22pF" V 2562 1600 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2700 1600 50  0001 C CNN
 F 3 "~" H 2700 1600 50  0001 C CNN
 	1    2700 1600
@@ -336,7 +336,7 @@ L Device:C_Small C2
 U 1 1 60895356
 P 2700 1950
 F 0 "C2" V 2471 1950 50  0000 C CNN
-F 1 "C_Small" V 2562 1950 50  0000 C CNN
+F 1 "22pF" V 2562 1950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2700 1950 50  0001 C CNN
 F 3 "~" H 2700 1950 50  0001 C CNN
 	1    2700 1950
@@ -739,7 +739,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 2300 8750 2250
 Connection ~ 8300 2300
-NoConn ~ 5850 2550
 $Comp
 L random-keyboard-parts:Molex-0548190589 USB1
 U 1 1 60887BDA
@@ -751,4 +750,16 @@ F 3 "" H 5750 1750 60  0001 C CNN
 	1    5750 1750
 	0    -1   -1   0   
 $EndComp
+Text GLabel 4900 4000 2    50   Input ~ 0
+COL0
+Text GLabel 4900 3100 2    50   Input ~ 0
+ROW0
+Text GLabel 4900 1900 2    50   Input ~ 0
+ROW1
+Text GLabel 4900 4100 2    50   Input ~ 0
+COL1
+Text GLabel 4900 4200 2    50   Input ~ 0
+COL2
+Text GLabel 4900 3200 2    50   Input ~ 0
+ROW2
 $EndSCHEMATC
