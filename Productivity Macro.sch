@@ -802,8 +802,6 @@ F 3 "~" H 6300 4500 50  0001 C CNN
 $EndComp
 Text GLabel 6100 4400 0    50   Input ~ 0
 ss
-Text GLabel 6100 4500 0    50   Input ~ 0
-motion
 Text GLabel 6600 4500 2    50   Input ~ 0
 miso
 Text GLabel 6600 4600 2    50   Input ~ 0

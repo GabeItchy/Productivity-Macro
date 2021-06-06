@@ -836,7 +836,7 @@ Text GLabel 4900 1600 2    50   Input ~ 0
 sclk
 Text GLabel 4900 1700 2    50   Input ~ 0
 miso
-Text GLabel 4900 1800 2    50   Input ~ 0
+Text GLabel 4900 2600 2    50   Input ~ 0
 mosi
 Text GLabel 4900 2100 2    50   Input ~ 0
 ss
